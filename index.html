@@ -1,0 +1,324 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="utf-8">
+  <meta name="soyeon" content="writer">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <meta name="description" content="explanation">
+  <meta name="viewport" content="width=device-width,initial-scale=1.0">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+	<link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css">
+	<script src="https://kit.fontawesome.com/74657db80f.js" crossorigin="anonymous"></script>
+	<script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
+	<script src="js/swiper.js" defer></script>
+  <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
+  <link rel="stylesheet" href="css/allcoding.css">
+  <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+  <script src="js/allcoding.js" type="text/javascript" defer ></script>
+</head>
+<body>
+  <!--
+
+Copyright (c) YEAR - YOUR NAME - URL TO ORIGINAL
+
+Permission is hereby granted, free of charge, to any person 
+obtaining a copy of this software and associated documentation 
+files (the "Software"), to deal in the Software without restriction,
+including without limitation the rights to use, copy, modify, 
+merge, publish, distribute, sublicense, and/or sell copies of 
+the Software, and to permit persons to whom the Software is 
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall 
+be included in all copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, 
+EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES 
+OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND 
+NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT 
+HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, 
+WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, 
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER 
+DEALINGS IN THE SOFTWARE.
+
+-->
+
+
+
+
+
+
+    <!-- Explanation in JS tab -->
+
+  <!-- The two texts -->
+  <div id="container">
+    <span id="text1"></span>
+    <span id="text2"></span>
+  </div>
+
+  <!-- The SVG filter used to create the merging effect -->
+  <svg id="filters">
+    <defs>
+      <filter id="threshold">
+        <!-- Basically just a threshold effect - pixels with a high enough opacity are set to full opacity, and all other pixels are set to completely transparent. -->
+        <feColorMatrix in="SourceGraphic"
+            type="matrix"
+            values="1 0 0 0 0
+                    0 1 0 0 0
+                    0 0 1 0 0
+                    0 0 0 255 -140" />
+      </filter>
+    </defs>
+  </svg>
+  <div id="section1"></div>
+  <div id="section2">
+    <ul>
+      <li><a href="#">김소연 |  1999.05.22 </a>
+        <p><br>고등학교검정고시<br>웹디자인 기능사<br>컴퓨터그래픽스 운용 기능사 필기<br>고용노동부 NCS 훈련과정 웹 퍼블리싱&멀티미디어 과정</p>
+      </li>
+      <li><a href="#">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum quos repellat cupiditate sequi repudiandae eum eos velit quidem, obcaecati tempora repellendus dolores maiores asperiores deserunt provident temporibus ut expedita minima.</a></li>
+      <li><a href="#">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum quos repellat cupiditate sequi repudiandae eum eos velit quidem, obcaecati tempora repellendus dolores maiores asperiores deserunt provident temporibus ut expedita minima.</a></li>
+    </ul>
+  </div>
+
+  <div id="section3">
+    <p>skill</p>
+    <div id="inner_section3">
+      <section>
+        <ul class="skill_intro">
+          <li><a href="#">어려움 없이 웹사이트를 편안하게 이용할 수 있도록 웹표준과 웹접근성을 지키기 위해 노력합니다.</a></li>
+          <li><a href="#">모든 브라우저에서 웹사이트를 동일하게 이용할 수 있도록 크로스브라우징을 지키기 위해 노력합니다.</a></li>
+          <li><a href="#">유연한 사고와 원활한 커뮤니케이션을 통해 최대한의 결과를 만들어내도록 노력합니다.</a></li>
+        </ul>
+        <ul class="skill">
+          <li><a href="#">1</a></li>
+          <li><a href="#">1</a></li>
+          <li><a href="#">1</a></li>
+          <li><a href="#">1</a></li>
+          <li><a href="#">1</a></li>
+          <li><a href="#">1</a></li>
+          <li><a href="#">1</a></li>
+          <li><a href="#">1</a></li>
+          <li><a href="#">1</a></li>
+        </ul>
+      </section>
+    </div>
+  </div>
+      <!-- Explanation in JS tab -->
+
+  <!-- The two texts -->
+  <div id="container">
+    <span id="text1"></span>
+    <span id="text2"></span>
+  </div>
+
+  <!-- The SVG filter used to create the merging effect -->
+  <svg id="filters">
+    <defs>
+      <filter id="threshold">
+        <!-- Basically just a threshold effect - pixels with a high enough opacity are set to full opacity, and all other pixels are set to completely transparent. -->
+        <feColorMatrix in="SourceGraphic"
+            type="matrix"
+            values="1 0 0 0 0
+                    0 1 0 0 0
+                    0 0 1 0 0
+                    0 0 0 255 -140" />
+      </filter>
+    </defs>
+  </svg>
+  </div>
+  <div id="section4">
+    <!-- I AM -->
+    <p>lorem</p>
+    <div id="inner_section4">
+      <section>
+        <div>Lorem ipsum dolor sit amet consectetur.</div>
+        <div>Lorem ipsum dolor sit.</div>
+        <div>Lorem, ipsum dolor.</div>
+        <div>Lorem ipsum dolor sit.</div>
+        <div>Lorem ipsum dolor sit amet consectetur adipisicing.</div>
+        <div>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</div>
+      </section>
+    </div>
+  </div>
+  <div id="section5">
+    <section class="hero-section">
+      <h2>제가 만든 작업물을 구경해보세요</h2>
+
+      <div class="card-grid">
+        <a class="card" href="#">
+          <div class="card__background" style="background-image: url(img/sscsscsscssc.jpg)"></div>
+          <div class="card__content">
+            <p class="card__category">SSC</p>
+            <h3 class="card__heading">slow steady club</h3>
+          </div>
+        </a>
+        <a class="card" href="#">
+          <div class="card__background" style="background-image: url(img/copy-1662617696-16.jpg)"></div>
+          <div class="card__content">
+            <p class="card__category">Rhykershop</p>
+            <h3 class="card__heading">국내외 다양함을 추구하다</h3>
+          </div>
+        </a>
+        <a class="card" href="#">
+          <div class="card__background" style="background-image: url(img/womanwomanwoman.jpg)"></div>
+          <div class="card__content">
+            <p class="card__category">ARITAUM</p>
+            <h3 class="card__heading">당신이 아름다워지는 순간</h3>
+          </div>
+        </a>
+        <a class="card" href="#">
+          <div class="card__background" style="background-image: url(img/vans.jpg)"></div>
+          <div class="card__content">
+            <p class="card__category">VANS</p>
+            <h3 class="card__heading">보더들에게 사랑받는 신발</h3>
+          </div>
+        </a>
+        <a class="card" href="#">
+          <div class="card__background" style="background-image: url(https://images.unsplash.com/photo-1557177324-56c542165309?ixlib=rb-1.2.1&auto=format&fit=crop&w=1950&q=80)"></div>
+          <div class="card__content">
+            <p class="card__category">Category</p>
+            <h3 class="card__heading">Lorem, ipsum dolor</h3>
+          </div>
+        </a>
+        <a class="card" href="#">
+          <div class="card__background" style="background-image: url(https://images.unsplash.com/photo-1557187666-4fd70cf76254?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=60)"></div>
+          <div class="card__content">
+            <p class="card__category">Category</p>
+            <h3 class="card__heading">Lorem, ipsum dolor</h3>
+          </div>
+        </a>
+        <a class="card" href="#">
+          <div class="card__background" style="background-image: url(https://images.unsplash.com/photo-1556680262-9990363a3e6d?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=60)"></div>
+          <div class="card__content">
+            <p class="card__category">Category</p>
+            <h3 class="card__heading">Lorem, ipsum dolor</h3>
+          </div>
+        </li>
+        <a class="card" href="#">
+          <div class="card__background" style="background-image: url(https://images.unsplash.com/photo-1557004396-66e4174d7bf6?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=60)"></div>
+          <div class="card__content">
+            <p class="card__category">Category</p>
+            <h3 class="card__heading">Lorem, ipsum dolor</h3>
+          </div>
+        </a>
+      <div>
+    </section>
+  </div>
+
+
+
+  <div id="section6">
+    <div class="wrap">
+      <!-- 다양한 graphic works도 가능해요 -->
+      <h1>lorem</h1>
+      <ul class="auto">
+        <li class="btoStart"><i class="fas fa-play"></i></li>
+        <li class="btoStop"><i class="fas fa-pause"></i></li>
+      </ul>
+      <div class="swiper-wrapper">
+        <div class="swiper-slide">
+          <div class="inner">
+            <div class="con">
+              <img src="http://placehold.it/435x250/df00cf/fff?text=slide01" alt="img">
+              <h2>Lorem ipsum dolor sit.</h2>
+              <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quasi, ipsum.</p>
+            </div>
+          </div>
+        </div>
+        <div class="swiper-slide">
+          <div class="inner">
+            <div class="con">
+              <img src="http://placehold.it/435x250/fd3fsd/fff?text=slide02" alt="img">
+              <h2>Lorem ipsum dolor sit.</h2>
+              <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quasi, ipsum.</p>
+            </div>
+          </div>
+        </div>
+        <div class="swiper-slide">
+          <div class="inner">
+            <div class="con">
+              <video auto>
+                <source src="img/vid1.mp4" type="video/mp4">
+              </video>
+            </div>
+          </div>
+        </div>
+        <div class="swiper-slide">
+          <div class="inner">
+            <div class="con">
+              <video auto>
+                <source src="img/vid2.mp4" type="video/mp4">
+              </video>
+            </div>
+          </div>
+        </div>
+        <div class="swiper-slide">
+          <div class="inner">
+            <div class="con">
+              <video auto>
+                <source src="img/vid3.mp4" type="video/mp4">
+              </video>
+            </div>
+          </div>
+        </div>
+        <div class="swiper-slide">
+          <div class="inner">
+            <div class="con">
+              <video auto >
+                <source src="img/vid4.mp4" type="video/mp4">
+              </video>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="swiper-button-next"></div>
+      <div class="swiper-button-prev"></div>
+      <div class="swiper-pagination"></div>
+    </div>
+  </div>
+
+  <!-- 영상 -->
+
+  <div id="section7">
+    <figure>
+      <div class="bg-video-wrap">
+        <video src="https://designsupply-web.com/samplecontent/vender/codepen/20181014.mp4" loop muted autoplay>
+          <!--  -->
+        </video>
+        <div class="overlay">
+        </div>
+        <h1>Thank you for watching<br>contact<br>rlathdus2711@naver.com
+        </h1>
+      </div>
+    </figure>
+  </div>
+
+
+
+
+
+  <div id="section8">
+  </div>
+  
+  <svg id="filters">
+      <defs>
+          <filter id="threshold">
+              <feColorMatrix in="SourceGraphic" type="matrix" values="1 0 0 0 0
+                    0 1 0 0 0
+                    0 0 1 0 0
+                    0 0 0 255 -140" />
+          </filter>
+      </defs>
+  </svg>
+  </div>
+  <div id="section9"></div>
+  <div id="section10"></div>
+  <div id="section11"></div>
+  <div id="section12"></div>
+  <div id="section13"></div>
+  <div id="section14"></div>
+  <div id="section15"></div>
+  <div id="section16"></div>
+</body>
+</html>  
