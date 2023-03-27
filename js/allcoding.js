@@ -10,7 +10,7 @@ const elts = {
 // The strings to morph between. You can change these to anything you want!
 const texts = [
 	"안녕하세요",
-	"좀 하는 디자이너",
+	"가치를 더하는 디자이너",
 	"김소연",
 	"입니다",
 	"저의 작업물은 ",
